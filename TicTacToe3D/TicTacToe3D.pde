@@ -89,7 +89,7 @@ int getPosition(float x) {
 }
 
 void drawBoard() {
-  background(255);
+  background(128);
 
   float h = w / 2;
   camera(
