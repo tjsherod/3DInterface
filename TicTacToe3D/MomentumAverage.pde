@@ -1,3 +1,5 @@
+//Processing code for the Momentum Average formula
+
 class MomentumAverage {
   float adapt;
   float avg;
