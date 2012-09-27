@@ -1,3 +1,5 @@
+//This is the code for the Normalize formula
+
 boolean linear = true;
 float minDistance = 1, maxDistance = 4;
 
