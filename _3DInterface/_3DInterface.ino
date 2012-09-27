@@ -1,6 +1,5 @@
-//
-// By Kyle McDonald
-// From the instructables project at:
+// Engineering fair project, by Tj Sherod.
+//Based off of the link below, with some modification by me. (Electrical mains increased, 1/8 inch plywood, and other mods)
 // http://www.instructables.com/id/DIY-3D-Controller/
 
 #define resolution 8
