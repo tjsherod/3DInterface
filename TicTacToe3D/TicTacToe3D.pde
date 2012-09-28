@@ -152,8 +152,9 @@ void drawBoard() {
   
   fill(0);
   if(mousePressed && mouseButton == LEFT)
-    msg("defining boundaries");
+    msg("Defining cube boundaries");
 }
+
 
 void keyPressed() {
   if(key == TAB) {
@@ -165,7 +166,10 @@ void keyPressed() {
 void mousePressed() {
   if(mouseButton == RIGHT)
     reset();
+   if(mousePressed && mouseButton == RIGHT)
+     msg("Resetting the sensor");
 }
+
 
 void reset() {
   moves = new boolean[2][div][div][div];
